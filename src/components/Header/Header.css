@@ -1,15 +1,20 @@
 .Header {
-  min-height: 80vh;
+  min-height: 90vh;
   background-color: aliceblue;
   object-fit: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   padding: 1rem;
   background-size: cover;
-  color: white;
+  color: rgb(0, 0, 0);
   text-shadow: 0 0 20px rgba(255, 255, 255, .5);
 }
 .Header h1 {
+  font-size: 3rem;
   margin: 0;
+}
+p{
+  font-size: 1.2rem;
 }

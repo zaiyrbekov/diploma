@@ -16,9 +16,13 @@
   display: block;
   padding: .5rem 1rem;
   color: white;
-  font-size: .8rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 .Nav a:hover {
   background-color: rgba(255, 255, 255, .1);
+}
+.Nav div {
+ font-size: 1.3rem;
+ padding: 0 1rem;
 }

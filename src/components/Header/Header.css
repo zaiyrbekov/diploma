@@ -10,6 +10,7 @@
   background-size: cover;
   color: rgb(0, 0, 0);
   text-shadow: 0 0 20px rgba(255, 255, 255, .5);
+  margin:0 25px;
 }
 .Header h1 {
   font-size: 3rem;

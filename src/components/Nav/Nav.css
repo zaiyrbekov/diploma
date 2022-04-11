@@ -13,18 +13,3 @@
   display: flex;
   margin-right: 15px;
 }
-.Nav a {
-  display: block;
-  padding: .5rem 1rem;
-  color: black;
-  font-size: 1rem;
-  text-decoration: none;
-}
-.Nav a:hover {
-  background-color: lightgray;
-}
-.Nav div {
- font-size: 1.3rem;
- padding: 0 1rem;
- margin-left: 25px;
-}

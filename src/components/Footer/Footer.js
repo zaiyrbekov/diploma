@@ -4,6 +4,7 @@ function Footer() {
   return (
     <footer className="Footer">
       Fresh Kurut 2022
+      
     </footer>
   );
 }

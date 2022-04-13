@@ -5,6 +5,7 @@ function Contacts() {
     <article>
       <h1>This is Contacts page.</h1>
       <img src={ImgLogo} alt=""/>
+     
       <p className="line">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa praesentium fuga ipsa similique omnis explicabo earum libero porro, fugiat exercitationem enim deserunt iusto iste assumenda ratione, necessitatibus, vel asperiores tempora.</p>
     <p>Sit atque sequi aspernatur consectetur autem fugiat. Voluptatum debitis, inventore corrupti similique repellat, placeat cumque obcaecati deserunt culpa nemo ex delectus nostrum quis labore iste maiores accusantium commodi molestiae velit.</p>
     <p>Sint, quis facere facilis perferendis eligendi hic recusandae excepturi quos quisquam modi? Qui, consectetur praesentium. Incidunt consectetur, minus earum iure at itaque sed? Esse delectus laudantium iure eius velit consectetur.</p>

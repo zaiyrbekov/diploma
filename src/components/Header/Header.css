@@ -1,5 +1,5 @@
 .Header {
-  min-height: 70vh;
+  min-height: 60vh;
   background-color: aliceblue;
   object-fit: cover;
   display: flex;
@@ -21,4 +21,6 @@
 p{
   font-size: 1.2rem;
   padding: 0;
+  margin-top: -.2rem;
+  margin-left: 2px;
 }

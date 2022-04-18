@@ -1,5 +1,5 @@
 
-import Header from "./components/Header/Header";
+
 import Home from "./pages/Home";
 import Contacts from "./pages/Contacts";
 import Products from "./pages/Products";

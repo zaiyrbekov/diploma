@@ -19,3 +19,8 @@ article{
 .line::first-letter{
   font-size: 4rem;
 }
+.container{
+  max-width: 987px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

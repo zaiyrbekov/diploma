@@ -1,26 +1,49 @@
 .Header {
-  min-height: 60vh;
-  background-color: aliceblue;
-  object-fit: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  position: relative;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
 
-  padding: 1rem 1rem 1rem 4rem;
-  background-size: cover;
-  color: rgb(0, 0, 0);
-  text-shadow: 0 0 20px rgba(255, 255, 255, .5);
-  margin:0 25px;
 }
-.Header h1 {
-  font-size: 4rem;
-  margin: 0;
-  opacity: .75;
-  
+
+.Header img {
+  width: 70%;
+  height: 40vh;
+  min-height: 380px;
+  object-fit: cover;
+  object-position: center;
+
+  margin: 2rem 0;
+  border-radius: 2rem;
+  margin: 0 auto;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  transition: transform 5s ease-out;
 }
-p{
+.Header img:hover{
+  transform: scale(1.1);
+
+}
+.Header section {
+  position: absolute;
+  bottom: -3rem;
+  right: 2rem;
+  max-width: 500px;
+  margin-left: 2rem;
+  z-index: 1;
+  background-color: white;
+  padding: 0 2rem 0;
+  border-radius: 2rem;
   font-size: 1.2rem;
-  padding: 0;
-  margin-top: -.2rem;
-  margin-left: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+ 
+}
+/* .Header section:hover{
+  background: linear-gradient(#d48383, #a4a8d2);
+
+}
+.Header img:hover .Header section{
+  z-index: 1;
+} */
+.Header h1 {
+  font-size: 2rem;
 }

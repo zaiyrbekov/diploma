@@ -9,9 +9,6 @@ import Layout from "./components/Layout/Layout";
 function App() {
   return (
     <div className="App">
-      
-
-      {/* <Header /> */}
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -19,7 +16,6 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </Layout>
-    
     </div>
   );
 }

@@ -1,28 +1,24 @@
 .Header {
   position: relative;
-  margin-bottom: 5rem;
-  margin-top: 2rem;
+  margin-bottom: 7rem;
+  margin-top: 2.5rem;
 
 }
 
 .Header img {
-  width: 70%;
-  height: 40vh;
+  width: 80%;
+  height: 80vh;
   min-height: 380px;
   object-fit: cover;
   object-position: center;
 
-  margin: 2rem 0;
   border-radius: 2rem;
   margin: 0 auto;
   display: flex;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-  transition: transform 5s ease-out;
-}
-.Header img:hover{
-  transform: scale(1.1);
 
 }
+
 .Header section {
   position: absolute;
   bottom: -3rem;

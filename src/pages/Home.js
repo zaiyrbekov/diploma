@@ -1,4 +1,4 @@
-import ImgLogo3 from "../assets/header3.jpg"
+import ImgLogo1 from "../assets/header.jpg"
 import Header from "../components/Header/Header";
 
 function Home() {
@@ -6,7 +6,7 @@ function Home() {
    <>
    <Header
    title="This is home page."
-   image={ImgLogo3}>
+   image={ImgLogo1}>
      
        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam obcaecati quasi reiciendis, facere quis, quibusdam sint optio, voluptatibus corrupti consequatur sed qui itaque cupiditate. Incidunt quibusdam dicta blanditiis dolorum in?
    </Header>

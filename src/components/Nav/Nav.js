@@ -7,6 +7,8 @@ function Nav() {
   return (
     <nav className={classes.Nav}>
       <div className={classes.container}>
+      <button className={classes.Button}>Order now</button>
+
         <Logo />
         <ul>
           <NavItem url="/">Home</NavItem>

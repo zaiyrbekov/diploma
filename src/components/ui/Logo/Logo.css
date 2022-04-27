@@ -2,6 +2,7 @@
 
   font-size: 1.5rem;
   font-weight: bold;
-  margin-left: 1rem;
-
+  /* margin-left: -10rem; */
+ position: relative;
+left: 0;
 }

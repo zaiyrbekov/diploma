@@ -1,6 +1,9 @@
+
+
+
 .NavToggle {
-  background-image: url("https://img.icons8.com/windows/512/menu--v1.png");
- color: black;
+  background-image:  url("https://img.icons8.com/windows/512/menu--v1.png");
+
   display: none;
 
   padding: 1rem 1.5rem;
@@ -15,7 +18,7 @@
   border: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
   .NavToggle {
     display: inline-block;
   }

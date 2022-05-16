@@ -1,7 +1,7 @@
 .Nav {
  
   color: black ;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, .3); */
 }
 .Nav .container {
   display: flex;
@@ -36,4 +36,18 @@
   background: #dc780b;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.Nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+@media (max-width: 620px) {
+  .Nav {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
 }

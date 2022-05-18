@@ -1,7 +1,8 @@
 .Nav {
- 
+
   color: black ;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, .3); */
+z-index: 1;
 }
 .Nav .container {
   display: flex;
@@ -24,19 +25,7 @@
     display: none;
   }
 }
-.Nav .Button{
-  border: none;
-  display: block;
-  padding: .5rem 1rem;
-  color: #0b1c2c;
-  font-size: 1rem;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
-  background: #dc780b;
-  border-radius: 5px;
-  cursor: pointer;
-}
+
 
 .Nav {
   list-style: none;

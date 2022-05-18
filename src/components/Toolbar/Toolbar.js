@@ -10,7 +10,7 @@ function Toolbar({ toggleDrawer }) {
         
         <Nav />
         <Logo />
-        <button className={classes.Button}>button</button>
+        
         <NavToggle callback={toggleDrawer} />
       </div>
     </nav>

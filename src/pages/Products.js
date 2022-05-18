@@ -1,7 +1,9 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/header1.jpg";
-import ProductList from "../components/ProductList/ProductList";
-import { getProducts } from "../data/products";
+import headerImage from "../assets/header4.jpg";
+// import ProductList from "../components/ProductList/ProductList";
+// import { getProducts } from "../data/products";
+import CategoryList from "../components/CategoryList/CategoryList";
+import { getCategories } from "../data/categories";
 
 function Products() {
   return (
@@ -12,7 +14,8 @@ function Products() {
         The fruits; cherries or berries, most commonly contain two stones with their flat sides together. A small percentage of cherries contain a single seed, instead of the usual two. This is called a "peaberry".
       </Header>
 
-      <ProductList products={getProducts()} />
+      {/* <ProductList products={getProducts()} /> */}
+      <CategoryList categories={getCategories()}/>
     </>
   );
 }

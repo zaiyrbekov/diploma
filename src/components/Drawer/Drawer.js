@@ -14,7 +14,7 @@ function Drawer({ open, toggle }) {
       <div className={classes.content}>
         <Logo />
         <Nav />
-        <button>button</button>
+        
       </div>
     </div>
   );

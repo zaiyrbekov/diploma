@@ -1,8 +1,10 @@
 import "./Logo.css";
+import image from "../../../assets/photo-top.webp"
 
 function Logo() {
   return (
-    <div className="Logo">Burger </div>
+ 
+    <img className="Logo" src={image} alt="" />
   );
 }
 

@@ -1,8 +1,9 @@
 .Toolbar {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-  z-index: 2;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, .3); */
+
+
 }
 .Toolbar .container {
   display: flex;
@@ -11,13 +12,14 @@
   max-width: 987px;
   margin: 0 auto;
   padding: 0 1rem;
+  background-color: rgb(0, 0, 0);
+  z-index: 6;
+  
 }
 @media (max-width: 620px) {
   .Toolbar ul   {
     display: none;
   }
 
-  .Button {
-    display: none;
-  }
+ 
 }

@@ -1,4 +1,4 @@
-import ImgLogo from "../assets/header5.jpg"
+import ImgLogo from "../assets/header2.jpg"
 import Header from "../components/Header/Header";
 function Contacts() {
   return (

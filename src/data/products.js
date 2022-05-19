@@ -14,6 +14,12 @@ import drinks3 from "../assets/drink3.jpg";
 import drinks4 from "../assets/drink4.jpg";
 
 
+
+import add1 from "../assets/add1.jpg";
+import add2 from "../assets/add2.jpg";
+import add3 from "../assets/add3.jpg";
+import add4 from "../assets/add4.jpg";
+
 const products = [
   {
     image: productImage1,
@@ -88,29 +94,6 @@ const products = [
     price: 5,
   },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   {
     image: drinks1,
     productId: "Coca-Cola",
@@ -148,6 +131,68 @@ const products = [
     price: 5,
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    image: add1,
+    productId: "French fries",
+    title: "French fries",
+    categoryId: "Additives",
+    lorem: "Great way to make your business appear trust and relevant.",
+    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    price: 4,
+  },
+  {
+    image: add2,
+    productId: "Sauces",
+    title: "Sauces",
+    categoryId: "Additives",
+    lorem: "Great way to make your business appear trust and relevant.",
+    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    price: 5,
+  },
+  {
+    image: add3,
+    productId: "Сroquettes",
+    categoryId: "Additives",
+    title: "Сroquettes",
+    lorem: "Great way to make your business appear trust and relevant.",
+    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    price: 6,
+  },
+  {
+    image: add4,
+    productId: "Rustic potatoes",
+    categoryId: "Additives",
+    title: "Rustic potatoes",
+    lorem: "Great way to make your business appear trust and relevant.",
+    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    price: 5,
+  },
 
 
   

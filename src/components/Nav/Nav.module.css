@@ -1,8 +1,9 @@
 .Nav {
 
-  color: black ;
+  /* background-color: black ; */
   /* box-shadow: 0 0 10px rgba(0, 0, 0, .3); */
 z-index: 1;
+
 }
 .Nav .container {
   display: flex;

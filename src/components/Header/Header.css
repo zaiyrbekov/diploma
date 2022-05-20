@@ -1,7 +1,7 @@
 .Header {
-  position: relative;
+  /* position: relative; */
   /* margin-bottom: 7rem; */
-margin-top: -61px;
+  margin-top: -61px;
 
 }
 
@@ -12,7 +12,7 @@ margin-top: -61px;
   object-fit: cover;
   object-position: center;
 
- 
+
   margin: 0 auto;
   display: flex;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
@@ -21,41 +21,54 @@ margin-top: -61px;
 
 .Header section {
   height: 280px;
-  position: absolute;
+  /* position: absolute;
   top: 7rem;
-  bottom: auto;
-  right: 2rem;
+  bottom: auto; */
+  /* right: 2rem; */
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 1;
-  max-width: 500px;
 
-  margin-left: 2rem;
+  justify-content: center;
+  align-items: flex-end;
+  flex-shrink: 1;
+  max-width: 700px;
+
+  margin: -400px auto 120px auto;
   z-index: 1;
-  background-color: rgba(0, 0, 0, .3);
+
   padding: 0 2rem 0;
- 
-  font-size: 1.2rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .4);
-color: white;
+
+
+
+  color: white;
+  margin-top: -400px;
 }
-@media (max-width:900px){
-  .Header section{
+
+@media (max-width:900px) {
+  .Header section {
     max-width: 400px;
   }
 }
-@media (max-width:700px){
-  .Header section{
+
+@media (max-width:700px) {
+  .Header section {
     max-width: 300px;
   }
 }
-@media (max-width:600px){
-  .Header section{
+
+@media (max-width:600px) {
+  .Header section {
     max-width: 250px;
     padding: 0 1rem 0;
   }
 }
-.Header h1 {
-  font-size: 2rem;
+
+.Header h3 {
+  color: #fff;
+  font-family: "Paytone One", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0 5px 0 rgba(255, 255, 255, 0.4);
 }

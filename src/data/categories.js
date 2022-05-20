@@ -1,4 +1,4 @@
-import beansImage from "../assets/category1.jpg";
+import beansImage from "../assets/header9.jpg";
 import accessoriesImage from "../assets/category3.jpg";
 import teaImage from "../assets/category2.jpg";
 

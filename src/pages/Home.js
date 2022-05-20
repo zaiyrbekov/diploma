@@ -12,10 +12,11 @@ function Home() {
   return (
     <>
       <Header
-   title="This is home page."
+   title="Burger 
+   Bachelor"
    image={headerImage}>
      
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam obcaecati quasi reiciendis, facere quis, quibusdam sint optio, voluptatibus corrupti consequatur sed qui itaque cupiditate. Incidunt quibusdam dicta blanditiis dolorum in?
+       {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam obcaecati quasi reiciendis, facere quis, quibusdam sint optio, voluptatibus corrupti consequatur sed qui itaque cupiditate. Incidunt quibusdam dicta blanditiis dolorum in? */}
    </Header>
       {/* <CategoryList categories={getCategories()}/> */}
     </>

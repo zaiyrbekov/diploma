@@ -1,7 +1,3 @@
-
-  
-
-
 import { useParams } from "react-router-dom";
 // import Header from "../components/Header/Header";
 import { getProduct } from "../data/products";
@@ -15,21 +11,55 @@ function Product() {
   }
 
   return (
-   
-       <>
-      <div style={{display: "flex", padding: "3rem"}}>
-        <img style={{width: "450px", marginRight: "1rem", borderRadius: "10px"}} src={product.image} alt={product.title} />
-        <div style={{padding: "1rem", fontFamily: "serif", textAlign: "center"}}>
-          <h2 style={{marginTop: "0"}}>{product.title}</h2>
-          <p  style={{fontSize: "1.2rem"}}>{product.description}</p>
-          <button 
-            style={{cursor: "pointer", padding: "0.5rem", fontSize: "1rem", background: "#0b1c2c", color: "white", fontFamily: "serif", border: "solid 1px grey", borderRadius: "5px"}}>
+    <>
+      <div style={{ display: "flex", padding: "3rem" }}>
+        <img
+          style={{
+            width: "250px",
+            height: "250px",
+            marginRight: "1rem",
+            borderRadius: "50%",
+          }}
+          src={product.image}
+          alt={product.title}
+        />
+        <div
+          style={{ padding: "1rem", fontFamily: "serif", textAlign: "center" }}
+        >
+          <h2 style={{ marginTop: "0" }}>{product.title}</h2>
+          <p
+            style={{
+              fontWeight: "400",
+
+              color: "#6e6e6e",
+              fontFamily: "Montserrat, sans-serif",
+            }}
+          >
+            {product.description}
+          </p>
+          <button
+            style={{
+              height: "26px",
+ background: "none",
+              cursor: "pointer",
+              padding: " .5rem 1rem 25px 1rem",
+              fontSize: "1rem",
+              textAlign: "center",
+              color: "#f0542c",
+              fontFamily: "Montserrat, sans-serif",
+              fontWeight: "600",
+              border: "1px solid #f0542c",
+              borderRadius: "50px",
+
+
+              
+            }}
+          >
             Add to cart - $ {product.price}
           </button>
         </div>
       </div>
     </>
-    
   );
 }
 

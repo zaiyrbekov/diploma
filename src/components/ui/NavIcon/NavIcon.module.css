@@ -17,6 +17,9 @@
    padding: 10px 0 5px 0;
    margin: 0;
  }
+ ul li a i:hover{
+   color: #f2c64d;
+ }
 
 
  @media (max-width: 690px) {

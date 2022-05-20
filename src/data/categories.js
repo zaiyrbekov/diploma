@@ -1,4 +1,4 @@
-import beansImage from "../assets/header9.jpg";
+import beansImage from "../assets/header15.jpg";
 import accessoriesImage from "../assets/category3.jpg";
 import teaImage from "../assets/category2.jpg";
 
@@ -17,7 +17,7 @@ const categories = [
   },
   {
     categoryId: "Additives",
-    title: "Additives",
+    title: "Additionally",
     image: accessoriesImage,
     desciption: "The best coffee accessories for hot and iced coffee drinks include burr grinders, water kettles, frothers, scales, and thermometers."
   },

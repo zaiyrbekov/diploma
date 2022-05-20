@@ -40,7 +40,7 @@ function Product() {
           <button
             style={{
               height: "26px",
- background: "none",
+              background: "none",
               cursor: "pointer",
               padding: " .5rem 1rem 25px 1rem",
               fontSize: "1rem",
@@ -50,9 +50,6 @@ function Product() {
               fontWeight: "600",
               border: "1px solid #f0542c",
               borderRadius: "50px",
-
-
-              
             }}
           >
             Add to cart - $ {product.price}

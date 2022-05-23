@@ -1,8 +1,8 @@
-import "./NavIcon.module.css";
+import classes from "./NavIcon.module.css";
 
 function NavIcon() {
   return (
-    <ul className="fox">
+    <ul className={classes.fox}>
       <li>
         <a href="/">
           <i class="fab fa-instagram"></i>
@@ -18,9 +18,13 @@ function NavIcon() {
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
-
       <li>
-        <a className="num" href="/">
+        <a href="/">
+          <i class="fab fa-google-plus-g"></i>
+        </a>
+      </li>
+      <li>
+        <a className={classes.number} href="/">
           +10 367 453 7382
         </a>
       </li>

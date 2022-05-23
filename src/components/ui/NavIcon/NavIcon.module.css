@@ -1,4 +1,4 @@
- ul {
+.fox {
    display: flex;
    padding: 0;
    margin: 0;
@@ -12,19 +12,20 @@
    margin: 0;
  }
 
- ul li a {
+ .fox li a {
    color: white;
    padding: 10px 0 5px 0;
    margin: 0;
  }
- ul li a i:hover{
+
+ .fox li a i:hover {
    color: #f2c64d;
  }
 
 
- @media (max-width: 690px) {
-   ul {
-     margin-bottom: -8px;
+ @media (max-width: 745px) {
+   .fox li:last-child {
+     display: none;
    }
 
 
@@ -33,7 +34,7 @@
 
 
 
- ul li .number {
+ .fox li .number {
    text-decoration: none;
    padding: 5px 5px;
    color: #f2c64d;

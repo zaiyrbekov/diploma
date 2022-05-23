@@ -5,7 +5,7 @@ function Contacts() {
     
      <>
    <Header
-   title="GET IN TOUCH."
+   title="GET IN TOUCH"
    image={ImgLogo}>
      
        

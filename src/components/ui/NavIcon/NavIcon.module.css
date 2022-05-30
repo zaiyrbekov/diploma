@@ -40,8 +40,13 @@
    color: #f2c64d;
    border: 2px solid #f2c64d;
    border-radius: 15px;
-
+   transition: .5s;
  }
+
+ .fox li .number:hover {
+  color: white;
+  background-color: #f2c64d;
+}
 
  /* .fox li:last-child a:hover {
   color: white;

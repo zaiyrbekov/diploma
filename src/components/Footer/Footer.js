@@ -7,27 +7,27 @@ function Footer() {
       <ul>
         <li>
           <a href="/">
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
           </a>
         </li>
         <li>
           <a href="/">
-            <i class="fab fa-twitter"></i>
+            <i className="fab fa-twitter"></i>
           </a>
         </li>
         <li>
           <a href="/">
-            <i class="fab fa-facebook-f"></i>
+            <i className="fab fa-facebook-f"></i>
           </a>
         </li>
         <li>
           <a href="/">
-            <i class="fab fa-google-plus-g"></i>
+            <i className="fab fa-google-plus-g"></i>
           </a>
         </li>
       </ul>
       <div className="footer-logo">2022 All rights reserved | This template is made
-          with <i class="far fa-heart"></i> by </div>
+          with <i className="far fa-heart"></i> by </div>
     </footer>
   );
 }

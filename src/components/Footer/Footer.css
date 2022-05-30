@@ -13,11 +13,13 @@
   margin: 0 auto;
   padding-bottom: 30px;
   /* border-bottom: 1px solid #919191; */
-  background-color: rgb(245, 244, 244);
+  background-color: rgba(245, 244, 244, 0.407);
+  background-image: url(https://preview.colorlib.com/theme/burger/img/banner/xfooter_bg.png.pagespeed.ic.mCriKPckdI.png);
 }
 .Footer ul li {
   list-style: none;
 }
+
 .Footer ul {
   display: flex;
   justify-content: center;

@@ -12,12 +12,11 @@ function Product() {
 
   return (
     <>
-      <div style={{ display: "flex", padding: "3rem" }}>
+      <div className="product-media" style={{ display: "flex",justifyContent: "center", padding: "3rem" }}>
         <img
           style={{
             width: "250px",
             height: "250px",
-            marginRight: "1rem",
             borderRadius: "50%",
           }}
           src={product.image}
@@ -30,14 +29,14 @@ function Product() {
           <p
             style={{
               fontWeight: "400",
-
+              maxWidth: "600px",
               color: "#6e6e6e",
               fontFamily: "Montserrat, sans-serif",
             }}
           >
             {product.description}
           </p>
-          <button
+          <button className="product-media-button"
             style={{
               height: "26px",
               background: "none",

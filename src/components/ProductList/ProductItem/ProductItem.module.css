@@ -43,10 +43,10 @@ p{
 }
 
 .ProductItem a:hover {
-  color:  #f2c64d;
+  color:   #f2c64d;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-bottom: 3.5px solid #f2c64d;
+  
 }
 
 

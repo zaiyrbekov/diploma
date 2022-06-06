@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (max-width: 620px) {
+  .product-media {
+    flex-direction: column;
+
+  }
+
+  .product-media img {
+
+    margin: 0 auto;
+
+  }
+}
+.product-media-button:hover{
+  color: white;
+  background-color: #f0542c;
+}
+.section-title {
+  margin: 0 auto 16px auto;
+  padding-top: 100px;
+}
+
+.section-title span {
+  color: #f2c64d;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 18px;
+  display: block;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+
+.section-title h3 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 700;
+  color: #1a0d01;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.boxed-btn5{
+   width: 900px;
+   height: 24px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    
+    border: 1px solid transparent;
+    text-align: center!important;
+   text-decoration: none;
+    display: flex;
+    justify-content: center;
+    transition: .5s;
+    margin: 0 auto+20px;
+    border-radius: 50px;
+    padding:12px;
+    cursor: pointer;
+    background: transparent;
+    color: #f0542c!important;
+    border: 1px solid #f0542c;
+}
+.boxed-btn5:hover{
+  color: white!important;
+  background-color: #f0542c;
+}

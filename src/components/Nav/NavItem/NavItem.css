@@ -53,4 +53,13 @@
     border-bottom: none;
     border-right: 5px solid transparent;
   }
+
+  .NavItem a:hover {
+    border-bottom: none;
+    border-right: 3.5px solid #f2c64d;
+  }
+  .NavItem a.active {
+    border-bottom: none;
+    border-right: 3.5px solid #f2c64d;
+  }
 }

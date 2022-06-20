@@ -41,7 +41,6 @@
 .NavItem a:hover::after {
   transform: scaleX(1);
 }
-
 @media (max-width: 900px) {
   .NavItem {
     justify-content: center;
@@ -58,6 +57,7 @@
     border-bottom: none;
     border-right: 3.5px solid #f2c64d;
   }
+
   .NavItem a.active {
     border-bottom: none;
     border-right: 3.5px solid #f2c64d;

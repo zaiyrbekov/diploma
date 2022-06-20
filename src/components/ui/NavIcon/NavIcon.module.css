@@ -23,13 +23,31 @@
  }
 
 
- @media (max-width: 745px) {
+ @media (max-width: 760px) {
    .fox li:last-child {
      display: none;
    }
-
-
  }
+ @media (max-width: 620px) {
+  .fox li:last-child {
+    display: block;
+    position: absolute;
+    display: flex;
+    margin-top: 3.5rem;
+    margin-left: 0;
+   
+  }
+  .tool{
+    margin-bottom: -4rem;
+  }
+  /* .number{
+    position: absolute;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+   */
+}
 
 
 

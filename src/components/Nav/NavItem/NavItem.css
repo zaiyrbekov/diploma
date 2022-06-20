@@ -1,6 +1,3 @@
-.NavItem{
-  /* margin-left: 5px; */
-}
 .NavItem a {
   display: block;
   padding: 10px 0 5px 0;
@@ -11,18 +8,21 @@
   text-decoration: none;
   transition: all 0.5s ease;
 }
+
 .NavItem a.active {
   color: #f2c64d;
   cursor: pointer;
   transition: all 0.3s ease;
   border-bottom: 3.5px solid #f2c64d;
 }
+
 .NavItem a:hover {
   color: #f2c64d;
   cursor: pointer;
   transition: all 0.3s ease;
   border-bottom: 3.5px solid #f2c64d;
 }
+
 .NavItem a::after {
   content: "";
   position: absolute;
@@ -42,13 +42,12 @@
   transform: scaleX(1);
 }
 
-
-
 @media (max-width: 900px) {
   .NavItem {
     justify-content: center;
   }
 }
+
 @media (max-width: 620px) {
   .NavItem a {
     border-bottom: none;

@@ -7,13 +7,10 @@ import productImage6 from "../assets/photo6.jpg";
 import productImage7 from "../assets/photo7.jpg";
 import productImage8 from "../assets/photo8.jpg";
 
-
 import drinks1 from "../assets/drink1.jpg";
 import drinks2 from "../assets/drink2.jpg";
 import drinks3 from "../assets/drink3.jpg";
 import drinks4 from "../assets/drink4.jpg";
-
-
 
 import add1 from "../assets/add1.jpg";
 import add2 from "../assets/add2.jpg";
@@ -131,32 +128,6 @@ const products = [
     price: 2,
   },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   {
     image: add1,
     productId: "French fries",
@@ -193,14 +164,11 @@ const products = [
     description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
     price: 2,
   },
-
-
-  
 ];
 
 export function getProducts(categoryId) {
   if (categoryId) {
-    return products.filter(product => product.categoryId === categoryId);    
+    return products.filter((product) => product.categoryId === categoryId);
   }
 
   return products;
@@ -209,8 +177,6 @@ export function getProducts(categoryId) {
 // dark-roast
 export function getProduct(productId) {
   return products[
-    products.findIndex(
-      product =>  product.productId === productId
-    )
+    products.findIndex((product) => product.productId === productId)
   ];
 }

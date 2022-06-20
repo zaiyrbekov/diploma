@@ -11,5 +11,4 @@ function Header({ image, title, children }) {
     </header>
   );
 }
-// alt={title}
 export default Header;

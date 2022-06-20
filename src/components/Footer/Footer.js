@@ -3,7 +3,6 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="Footer">
-     
       <ul>
         <li>
           <a href="/">
@@ -26,8 +25,10 @@ function Footer() {
           </a>
         </li>
       </ul>
-      <div className="footer-logo">2022 All rights reserved | This template is made
-          with <i className="far fa-heart"></i> by </div>
+      <div className="footer-logo">
+        2022 All rights reserved | This template is made with{" "}
+        <i className="far fa-heart"></i> by{" "}
+      </div>
     </footer>
   );
 }

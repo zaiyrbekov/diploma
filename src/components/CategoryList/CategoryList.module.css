@@ -1,10 +1,7 @@
 .CategoryList {
   display: flex;
   gap: 55px;
-  /* flex: 30%; */
   justify-content: center;
-  /* align-items: center; */
   flex-wrap: wrap;
    margin-top: 12rem;
-  
 }

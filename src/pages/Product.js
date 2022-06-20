@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-// import Header from "../components/Header/Header";
+
 import { getProduct } from "../data/products";
 
 function Product() {
@@ -12,7 +12,10 @@ function Product() {
 
   return (
     <>
-      <div className="product-media" style={{ display: "flex",justifyContent: "center", padding: "3rem" }}>
+      <div
+        className="product-media"
+        style={{ display: "flex", justifyContent: "center", padding: "3rem" }}
+      >
         <img
           style={{
             width: "250px",
@@ -36,7 +39,8 @@ function Product() {
           >
             {product.description}
           </p>
-          <button className="product-media-button"
+          <button
+            className="product-media-button"
             style={{
               height: "26px",
               background: "none",

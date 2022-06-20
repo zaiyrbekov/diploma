@@ -2,16 +2,10 @@ import { useState } from "react";
 import Drawer from "../Drawer/Drawer";
 import Footer from "../Footer/Footer";
 import Toolbar from "../Toolbar/Toolbar";
-import { useHistory } from "react";
+
 function Layout({ children }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
-  // const history = useHistory();
-  // history.listen((location, action) => {
-  //   if (drawerOpen) {
-  //     setDrawerOpen(false);
-  //   }
-  // });
   function toggleDrawer() {
     setDrawerOpen(!drawerOpen);
   }

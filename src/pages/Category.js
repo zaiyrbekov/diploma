@@ -10,14 +10,13 @@ function Category() {
   if (!category) {
     return null;
   }
-  
+
   return (
     <div className="Category">
-      <Header  title={category.title} image={category.image}>
+      <Header title={category.title} image={category.image}>
         {category.description}
-       
       </Header>
-      <ProductList products={getProducts(category.categoryId)}/>
+      <ProductList products={getProducts(category.categoryId)} />
     </div>
   );
 }

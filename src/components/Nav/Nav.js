@@ -1,7 +1,5 @@
-
 import classes from "./Nav.module.css";
 import NavItem from "./NavItem/NavItem";
-
 
 function Nav() {
   return (
@@ -11,7 +9,6 @@ function Nav() {
       <NavItem url="/contacts">Contacts</NavItem>
       <NavItem url="/about">About</NavItem>
     </ul>
-    
   );
 }
 

@@ -9,14 +9,14 @@ import { useEffect } from "react";
 function Checkout() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const { items, localId } = useSelector((store) => ({
+  const { items, localId } = useSelector(store => ({
     items: store.cart.items,
-    localId: store.auth.localId,
+    localId: store.auth.localId
   }));
 
   useEffect(() => {
     if (!localId) {
-      navigate("/auth");
+      navigate('/auth');
     }
   }, [localId, navigate]);
 
@@ -24,16 +24,10 @@ function Checkout() {
     event.preventDefault();
 
     const formData = new FormData(event.target);
-    dispatch(
-      checkout({
-        localId: localId,
-        items: items,
-        ...Object.fromEntries(formData.entries()),
-      })
-    );
-    navigate("/");
+    const order = { items: items, ...Object.fromEntries(formData.entries()) };
+    dispatch(checkout(order));
+    navigate('/');
   }
-
   return (
     <>
       <Header title="Checkout" image={image}></Header>

@@ -4,6 +4,7 @@ import Logo from "../ui/Logo/Logo";
 import classes from "./Toolbar.module.css";
 import NavIcon from "../ui/NavIcon/NavIcon";
 
+
 function Toolbar({ toggleDrawer }) {
   return (
     <nav className={classes.Toolbar}>
@@ -11,6 +12,7 @@ function Toolbar({ toggleDrawer }) {
         <Nav />
         <Logo />
         <NavIcon />
+        
         <NavToggle callback={toggleDrawer} />
       </div>
     </nav>

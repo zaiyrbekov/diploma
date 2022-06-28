@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-
+import CartButton from "../components/CartButton/CartButton";
 import { getProduct } from "../data/products";
 
 function Product() {
@@ -39,24 +39,7 @@ function Product() {
           >
             {product.description}
           </p>
-          <button
-            className="product-media-button"
-            style={{
-              height: "26px",
-              background: "none",
-              cursor: "pointer",
-              padding: " .5rem 1rem 25px 1rem",
-              fontSize: "1rem",
-              textAlign: "center",
-              color: "#f0542c",
-              fontFamily: "Montserrat, sans-serif",
-              fontWeight: "600",
-              border: "1px solid #f0542c",
-              borderRadius: "50px",
-            }}
-          >
-            Add to cart - $ {product.price}
-          </button>
+          <CartButton productId={params.productId} />
         </div>
       </div>
     </>

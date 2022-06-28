@@ -26,7 +26,6 @@ function CartDisplay({ actions }) {
   if (!output.length) {
     output = "No items in the cart.";
   }
-
   return (
     <div>
       <h2 style={{ textAlign: "center" }}>{output}</h2>

@@ -1,5 +1,5 @@
 import classes from "./NavIcon.module.css";
-
+import CartLink from "../../CartLink/CartLink";
 function NavIcon() {
   return (
     <ul className={classes.fox}>
@@ -23,9 +23,12 @@ function NavIcon() {
           <i className="fab fa-google-plus-g"></i>
         </a>
       </li>
+      <li className={classes.tool}>
+      <CartLink/>
+      </li>
 
       <li>
-        <a className={classes.number} href="/">
+      <a className={classes.number} href="/">
           +10 367 453 7382
         </a>
       </li>

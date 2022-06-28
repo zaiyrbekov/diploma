@@ -1,0 +1,14 @@
+
+ @media (max-width: 620px) {
+ 
+  .Cartlink{
+    display: none;
+  }
+} 
+
+@media (max-width: 619px) {
+ 
+  .Cartlink{
+    display: block;
+  }
+} 

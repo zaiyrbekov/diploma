@@ -27,6 +27,7 @@ button {
   }
 
 }
+
 /* @media (max-width: 500px) {
  
   .Cartlink{
@@ -124,7 +125,8 @@ button {
   border-radius: 50px;
   transition: .5s;
 }
-.CartButton:hover{
+
+.CartButton:hover {
   color: white !important;
   background-color: #f0542c !important;
 }
@@ -174,6 +176,8 @@ button {
   font-size: 18px;
   color: #f0542c;
   font-family: "Montserrat", sans-serif;
+
+  padding: 0 0 0 .8rem;
 }
 
 .btnn {
@@ -223,7 +227,7 @@ button {
 
 .all-cart {
   max-width: 900px;
-  margin: 10rem auto 0 auto;
+  margin: 5rem auto 0 auto;
 
 }
 
@@ -234,15 +238,16 @@ button {
 
 
 
-.CARTS{
-display: flex;
+.CARTS {
+  display: flex;
 
-flex-direction: column;
-align-items: center;
+  flex-direction: column;
+  align-items: center;
 
 
 }
-.CARTS label input{
+
+.CARTS label input {
   /* max-width: 300px; */
   width: 250px;
   height: 30px;
@@ -256,7 +261,8 @@ align-items: center;
   border-radius: 30px;
   margin-left: 20px;
 }
-.CARTS label{
+
+.CARTS label {
   display: block;
   padding: 10px 0 5px 0;
   font-family: "Montserrat", sans-serif;
@@ -264,15 +270,16 @@ align-items: center;
   font-weight: 800;
   color: #1a0d01;
 
- 
+
 }
 
-input{
+input {
   border: none;
   background: none;
   outline: none;
 }
-.cart-img{
+
+.cart-img {
   width: 70px;
   height: 70px;
   object-fit: cover;
@@ -280,4 +287,70 @@ input{
   border-radius: 50%;
   z-index: 2;
   margin-right: 16px;
+}
+
+.Auth {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 2rem 0;
+  flex-direction: column;
+}
+
+.Auth input {
+  width: 15rem;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  border-radius: .8rem;
+  border: 2px solid #f0542c;
+  font-size: 1rem;
+  padding-left: 10px;
+}
+
+.Auth input::placeholder {
+  font-size: 1.5rem;
+  color: rgb(71, 73, 75);
+}
+
+.Button {
+  border: 1px solid #f0542c;
+  margin: .5rem;
+  padding:.2rem  1rem;
+  border-radius: 2rem;
+  background-color: transparent;
+  color: #f0542c;
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.Button:not(:disabled):hover {
+  background-color: #f0542c;
+  color: white;
+}
+
+.Button:focus {
+  outline: none;
+}
+
+.Button:disabled {
+  opacity: .5;
+}
+
+.Button-center {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  margin: 0 auto;
+}
+
+.Auth-title {
+ font-size: 45px;
+  margin: 40px 0 10px 0;
+color: #f2c64d;
+font-weight: 400;
+ display: block;
+  font-family: "Pacifico", cursive;
+  text-align: center;
 }

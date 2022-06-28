@@ -22,6 +22,9 @@ ul li {
   color: #f2c64d;
 }
 
+.fox li:last-child {
+  display: none;
+}
 
 @media (max-width: 760px) {
   .fox li:last-child {

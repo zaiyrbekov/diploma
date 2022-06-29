@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
-import "../CartLink/CartLink.css"
+import "../CartLink/CartLink.css";
 
 export default function CartLink() {
   const number = useSelector((store) => {
@@ -12,11 +12,9 @@ export default function CartLink() {
 
   return (
     <NavLink className="Cartlink" to="/cart">
-      <div>
-        <span className="CartLinkSpan">
-          <i className="fa-solid fa-cart-shopping CartLink"> </i> {number}
-        </span>
-      </div>
+      <span className="CartLinkSpan">
+        <i className="fa-solid fa-cart-shopping CartLink"> </i> {number}
+      </span>
     </NavLink>
   );
 }

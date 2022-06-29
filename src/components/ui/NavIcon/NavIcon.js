@@ -23,10 +23,12 @@ function NavIcon() {
           <i className="fab fa-google-plus-g"></i>
         </a>
       </li>
-      <li className={classes.tool}>
-      <CartLink/>
+      <li>
+        <a className={classes.tooler} href="/">
+        <CartLink/>
+        </a>
       </li>
-
+      
       <li>
       <a className={classes.number} href="/">
           +10 367 453 7382

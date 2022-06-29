@@ -7,7 +7,7 @@ import NavIcon from "../ui/NavIcon/NavIcon";
 
 function Toolbar({ toggleDrawer }) {
   return (
-    <nav className={classes.Toolbar}>
+    <nav className={classes.Toolbar }>
       <div className={classes.container}>
         <Nav />
         <Logo />

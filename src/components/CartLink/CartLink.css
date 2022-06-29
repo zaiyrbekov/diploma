@@ -1,14 +1,24 @@
 
- @media (max-width: 620px) {
- 
-  .Cartlink{
-    display: none;
-  }
-} 
+.CartLink {
+  text-decoration: none !important;
+  padding: 5px 5px;
+  color: #f2c64d;
+  border: 2px solid #f2c64d;
+  border-radius: 15px;
+  z-index: 9;
 
-@media (max-width: 619px) {
- 
-  .Cartlink{
-    display: block;
-  }
-} 
+}
+
+.CartLinkSpan {
+
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  color: #f0542c;
+  font-family: Montserrat, sans-serif;
+  text-decoration: none;
+
+  border-radius: 50%;
+  z-index: 2;
+}

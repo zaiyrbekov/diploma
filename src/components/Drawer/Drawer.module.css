@@ -34,12 +34,12 @@
   transform: translateX(0);
 }
 
-@media (min-width: 620px) {
+@media (min-width: 680px) {
   .Drawer .backdrop {
     display: none;
   }
   .Drawer .content {
     transform: translateX(-300px);
   }
-  
+
 }

@@ -16,6 +16,7 @@ ul li {
   color: white;
   padding: 10px 0 5px 0;
   margin: 0;
+  text-decoration: none;
 }
 
 .fox li a i:hover {
@@ -26,31 +27,32 @@ ul li {
   display: none;
 }
 
-@media (max-width: 760px) {
-  .fox li:last-child {
-    display: none;
-  }
+.tooler {
+  padding: 10px;
+  text-decoration: none;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 680px) {
   .fox li:last-child {
     display: block;
     position: absolute;
     display: flex;
-    margin-top: 3.5rem;
+    margin-top: 4rem;
     margin-left: 0;
 
   }
 
   .tool {
-    margin-bottom: -4rem;
+    margin-top: 8rem;
   }
 
+  .fox li .tooler:last-child {
+    position: absolute;
+    top: 19rem;
+    left: 26px;
+  }
 
 }
-
-
-
 
 .fox li .number {
   text-decoration: none;

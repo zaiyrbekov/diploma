@@ -16,7 +16,7 @@
 
 }
 
-@media (max-width: 620px) {
+@media (max-width: 680px) {
   .Toolbar ul {
     display: none;
   }

@@ -131,31 +131,7 @@ button {
   background-color: #f0542c !important;
 }
 
-.CartLink {
-  text-decoration: none;
-  padding: 5px 5px;
-  color: #f2c64d;
-  border: 2px solid #f2c64d;
-  border-radius: 15px;
-  z-index: 9;
 
-}
-
-.CartLinkSpan {
-  position: absolute;
-  background-color: transparent;
-  cursor: pointer;
-  padding: 0px 5px;
-  font-size: 1rem;
-  text-align: center;
-  color: #f0542c;
-  font-family: Montserrat, sans-serif;
-  /*   
-  border: 3px solid #f0542c; */
-  border-radius: 50%;
-  z-index: 2;
-  margin: -1rem 1rem 0 0;
-}
 
 .Carttitle {
   z-index: 1;
@@ -179,7 +155,9 @@ button {
 
   padding: 0 0 0 .8rem;
 }
-
+.Cart-tool{
+  font-size: 18px;
+}
 .btnn {
   border: none;
   background: none;
@@ -187,6 +165,8 @@ button {
 }
 
 .CART {
+  max-width: 800px;
+  margin: 0 auto;
   padding: 1rem;
   display: flex;
   justify-content: space-evenly;

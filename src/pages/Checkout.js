@@ -32,7 +32,6 @@ function Checkout() {
     <>
       <Header title="Checkout" image={image}></Header>
       <CartDisplay />
-      <div className="all-cart">
         <form className="CARTS" onSubmit={onCheckout}>
           <label>
             First name:
@@ -53,9 +52,10 @@ function Checkout() {
             Phone:
             <input type="text" name="phone" required />
           </label>
+          <br/>
+          <button className="btn-checkout">Complete the order</button>
         </form>
-        <button className="btn-checkout">Complete the order</button>
-      </div>
+        
     </>
   );
 }

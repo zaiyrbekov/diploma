@@ -20,13 +20,13 @@ export default function CartItem({ product, actions, quantity }) {
         ${product.price * quantity}
       </div>
       <div >
-        {actions ? <button className="btnn" onClick={() => dispatch(decrement(product.productId))}><i class="fa-solid fa-minus"></i></button> : null}
+        {actions ? <button className="btnn" onClick={() => dispatch(decrement(product.productId))}><i className="fa-solid fa-minus"></i></button> : null}
         {/* {quantity} */}
-        {actions ? <button className="btnn" onClick={() => dispatch(increment(product.productId))}> <i class="fa-solid fa-plus"></i></button> : null}
+        {actions ? <button className="btnn" onClick={() => dispatch(increment(product.productId))}> <i className="fa-solid fa-plus"></i></button> : null}
      
       
         
-        {actions ? <button className="btnn" onClick={() => dispatch(remove(product.productId))}><i class="fa-solid fa-trash"></i></button> : null}
+        {actions ? <button className="btnn" onClick={() => dispatch(remove(product.productId))}><i className="fa-solid fa-trash"></i></button> : null}
         </div>
     </div>
   )

@@ -19,21 +19,12 @@ button {
 @media (max-width: 620px) {
   .product-media {
     flex-direction: column;
-
   }
 
   .product-media img {
     margin: 0 auto;
   }
-
 }
-
-/* @media (max-width: 500px) {
- 
-  .Cartlink{
-    display: block;
-  }
-} */
 
 .CartButton:hover {
   color: white;
@@ -71,8 +62,6 @@ button {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 600;
-
-
   text-align: center !important;
   text-decoration: none;
   display: flex;
@@ -95,7 +84,6 @@ button {
 @media (max-width: 900px) {
   .boxed-btn5 {
     max-width: 650px;
-
   }
 }
 
@@ -131,8 +119,6 @@ button {
   background-color: #f0542c !important;
 }
 
-
-
 .Carttitle {
   z-index: 1;
   text-decoration: none;
@@ -152,12 +138,13 @@ button {
   font-size: 18px;
   color: #f0542c;
   font-family: "Montserrat", sans-serif;
-
   padding: 0 0 0 .8rem;
 }
-.Cart-tool{
+
+.Cart-tool {
   font-size: 18px;
 }
+
 .btnn {
   border: none;
   background: none;
@@ -189,8 +176,6 @@ button {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 700;
-
-
   text-align: center !important;
   text-decoration: none;
   display: flex;
@@ -208,7 +193,6 @@ button {
 .all-cart {
   max-width: 900px;
   margin: 5rem auto 0 auto;
-
 }
 
 .btn-checkout:hover {
@@ -216,19 +200,13 @@ button {
   background-color: #f0542c;
 }
 
-
-
 .CARTS {
   display: flex;
-
   flex-direction: column;
   align-items: center;
-
-
 }
 
 .CARTS label input {
-  /* max-width: 300px; */
   width: 250px;
   height: 30px;
   background: url(./assets/footer.jpg);
@@ -249,8 +227,6 @@ button {
   font-size: 15px;
   font-weight: 800;
   color: #1a0d01;
-
-
 }
 
 input {
@@ -295,7 +271,7 @@ input {
 .Button {
   border: 1px solid #f0542c;
   margin: .5rem;
-  padding:.2rem  1rem;
+  padding: .2rem 1rem;
   border-radius: 2rem;
   background-color: transparent;
   color: #f0542c;
@@ -326,11 +302,55 @@ input {
 }
 
 .Auth-title {
- font-size: 45px;
+  font-size: 45px;
   margin: 40px 0 10px 0;
-color: #f2c64d;
-font-weight: 400;
- display: block;
+  color: #f2c64d;
+  font-weight: 400;
+  display: block;
   font-family: "Pacifico", cursive;
   text-align: center;
+}
+
+.footer_title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a0d01;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer_widget p {
+  color: #6e6e6e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 13px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.contact-number {
+  color: #f0542c;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-namber1 {
+  color: #6e6e6e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  /* margin-bottom: 13px; */
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
 }

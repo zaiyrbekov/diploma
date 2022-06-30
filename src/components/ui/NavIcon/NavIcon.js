@@ -25,12 +25,12 @@ function NavIcon() {
       </li>
       <li>
         <a className={classes.tooler} href="/">
-        <CartLink/>
+          <CartLink />
         </a>
       </li>
-      
+
       <li>
-      <a className={classes.number} href="/">
+        <a className={classes.number} href="/">
           +10 367 453 7382
         </a>
       </li>

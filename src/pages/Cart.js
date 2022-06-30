@@ -10,7 +10,6 @@ function Cart() {
       <div className="all-cart">
         {/* {output} */}
         <CartDisplay actions />
-
         <Link className="btn-checkout" to="/checkout">
           Checkout
         </Link>

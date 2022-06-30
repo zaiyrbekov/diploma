@@ -12,7 +12,6 @@ function Home() {
    Bachelor"
         image={headerImage}
       ></Header>
-
       <div class="section-title ">
         <span>Burger Menu</span>
         <h3>Best Ever Burgers</h3>

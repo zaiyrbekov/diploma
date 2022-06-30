@@ -5,14 +5,15 @@ import cartSlice from "./cartSlice";
 const store = configureStore({
   reducer: {
     cart: cartSlice,
-    auth: authSlice
-  }
+    auth: authSlice,
+  },
 });
 
 store.subscribe(() => {
-  localStorage.setItem('cartItems', JSON.stringify(
-    store.getState().cart.items
-  ));
+  localStorage.setItem(
+    "cartItems",
+    JSON.stringify(store.getState().cart.items)
+  );
 
   console.log(store.getState().auth);
 });

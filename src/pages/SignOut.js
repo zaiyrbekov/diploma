@@ -7,9 +7,9 @@ export default function SignOut() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    dispatch({ type: 'auth/init' });
-    navigate('/');
+    dispatch({ type: "auth/init" });
+    navigate("/");
   }, [dispatch, navigate]);
 
-  return 'asd';
+  return "asd";
 }
